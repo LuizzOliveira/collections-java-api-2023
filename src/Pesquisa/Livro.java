@@ -4,12 +4,12 @@ public class Livro {
     //atribtos
     private String titulo;
     private String autor;
-    private int anoPublicado;
+    private int anoPublicacao;
 
-    public Livro(String titulo, String autor, int anoPublicado) {
+    public Livro(String titulo, String autor, int anoPublicacao) {
         this.titulo = titulo;
         this.autor = autor;
-        this.anoPublicado = anoPublicado;
+        this.anoPublicacao = anoPublicacao;
     }
 
     public String getTitulo() {
@@ -19,8 +19,8 @@ public class Livro {
     public String getAutor() {
         return autor;
     }
-    public int getAnoPublicado() {
-        return anoPublicado;
+    public int getAnoPublicacao() {
+        return anoPublicacao;
     }
 
     @Override
@@ -28,7 +28,7 @@ public class Livro {
         return "Livro{" +
                 "titulo='" + titulo + '\'' +
                 ", autor='" + autor + '\'' +
-                ", anoPublicado=" + anoPublicado +
+                ", anoPublicado=" + anoPublicacao +
                 '}';
     }
 }
